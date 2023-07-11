@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Buy a list of products in Exito web page</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Buy a list of products in Exito web page</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Buy a list of products in Exito web page</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m12.14s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="buyProducts in exito"></a>
+<h3 class="failures">buyProducts in exito</h3>
+<span class="code">
+<pre>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.throwShouldBePresentErrorWithCauseIfPresent(WebElementFacadeImpl.java:1019)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:992)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:895)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1185)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$7tK7IhA7.performAs$accessor$nHO37Hlb(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$7tK7IhA7.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.tasks.BuyProducts.performAs(BuyProducts.java:30)
+	at app//com.exito.automation.tasks.BuyProducts$ByteBuddy$LmSeq1f1.performAs$accessor$CucUEsJO(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//com.exito.automation.tasks.BuyProducts$ByteBuddy$LmSeq1f1.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.tasks.SelectCategory.performAs(SelectCategory.java:36)
+	at app//com.exito.automation.tasks.SelectCategory$ByteBuddy$Lnk9lbWH.performAs$accessor$TnipL1Jx(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//com.exito.automation.tasks.SelectCategory$ByteBuddy$Lnk9lbWH.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.stepdefinitions.BuyProductsStepDefinitions.userBuys(BuyProductsStepDefinitions.java:23)
+	at ✽.user buys 5 products of &quot;categorie&quot;(file:///C:/Users/SQA/Downloads/RETOCHOUCAIRWEB/src/test/resources/features/buyProducts.feature:4)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown
+	at app//org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:989)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:895)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1185)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$7tK7IhA7.performAs$accessor$nHO37Hlb(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$7tK7IhA7.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.tasks.BuyProducts.performAs(BuyProducts.java:30)
+	at app//com.exito.automation.tasks.BuyProducts$ByteBuddy$LmSeq1f1.performAs$accessor$CucUEsJO(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//com.exito.automation.tasks.BuyProducts$ByteBuddy$LmSeq1f1.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.tasks.SelectCategory.performAs(SelectCategory.java:36)
+	at app//com.exito.automation.tasks.SelectCategory$ByteBuddy$Lnk9lbWH.performAs$accessor$TnipL1Jx(Unknown Source)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//com.exito.automation.tasks.SelectCategory$ByteBuddy$Lnk9lbWH.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:276)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:256)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:197)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:204)
+	at app//com.exito.automation.stepdefinitions.BuyProductsStepDefinitions.userBuys(BuyProductsStepDefinitions.java:23)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at app//io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at app//io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at app//io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at app//io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at app//io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at app//io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at app//io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at app//io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at app//io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at app//io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+	at app//io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at app//io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
+	at app//io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at app//io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
+	at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at app//io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+	at app//io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:288)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">buyProducts in exito</td>
+<td class="failures">1m12.14s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[92m|-- Given user buys 5 products of &quot;categorie&quot;?[0m
+?[92m|---- Automation select category?[0m
+?[92m|------ Automation clicks on Side menu button?[0m
+?[92m|------ Automation clicks on Category selection button?[0m
+?[92m|------ Automation clicks on subcategory selection button?[0m
+?[92m|------ Automation clicks on products list?[0m
+?[92m|------ Automation buy products?[0m
+?[92m|-------- Automation wait?[0m
+?[92m|-------- Automation clicks on Add to cart button?[0m
+?[92m|-------- Automation random quantities?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|------ Automation clicks on Side menu button?[0m
+?[92m|------ Automation clicks on Category selection button?[0m
+?[92m|------ Automation clicks on subcategory selection button?[0m
+?[92m|------ Automation clicks on products list?[0m
+?[92m|------ Automation buy products?[0m
+?[92m|-------- Automation wait?[0m
+?[92m|-------- Automation clicks on Add to cart button?[0m
+?[92m|-------- Automation random quantities?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|---------- Automation clicks on Products quantity button?[0m
+?[92m|------ Automation clicks on Side menu button?[0m
+?[92m|------ Automation clicks on Category selection button?[0m
+?[92m|------ Automation clicks on subcategory selection button?[0m
+?[92m|------ Automation clicks on products list?[0m
+?[92m|------ Automation buy products?[0m
+?[92m|-------- Automation wait?[0m
+?[92m|-------- Automation clicks on Add to cart button?[0m
+?[92m|---------- When sees the cart?[0m
+?[92m|---------- Then should see the price of the products?[0m
+?[92m|---------- And should see the quantities of the products?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/SQA/Downloads/RETOCHOUCAIRWEB/src/test/resources/features/buyProducts.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+buyProducts in exito(buy-a-list-of-products-in-exito-web-page;buyproducts-in-exito)
+--------------------------------------------------------------------------------
+[Test worker] INFO com.exito.automation.utils.ReadFiles - Se crea el objeto MODELO
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: unknown?[0m
+[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
+[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
+[Test worker] INFO  - ?[33m      -&gt; STEP IGNORED?[0m
+[Test worker] ERROR  - ?[91m
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+buyProducts in exito
+-----------------------------------------------------------------------?[0m
+[Test worker] ERROR  - ?[91m    Test failed at step: Automation clicks on Add to cart button?[0m
+[Test worker] ERROR  - ?[91m    Expected condition failed: waiting for By.xpath: //span[contains(text(),'Agregar')] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.1.2', revision: '9a5a329c5a'System info: host: 'SQABOG-PCC84719', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'Driver info: driver.version: unknown?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 10/07/2023, 4:53:10 p. m.</p>
+</div>
+</div>
+</body>
+</html>
